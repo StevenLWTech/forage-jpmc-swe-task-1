@@ -216,7 +216,7 @@ def get(req_handler, routes):
                 return
 
 
-def run(routes, host='0.0.0.0', port=8080):
+def run(routes, host='0.0.0.0', port=8000):
     """ Runs a class as a server whose methods have been decorated with
         @route.
     """
@@ -326,7 +326,7 @@ class App(object):
                     'price': asks2[0][0],
                     'size': asks2[0][1]
                 }
-            }]
+        }]
 
 
 ################################################################################
